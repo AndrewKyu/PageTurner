@@ -1,14 +1,15 @@
 @import "compass/css3";
 
 *{
-    cursor: url(http://cur.cursors-4u.net/food/foo-5/foo441.cur), progress !important;
+    cursor: url(http://cur.cursors-4u.net/others/oth-5/oth501.cur), progress !important;
     text-align: center;
+    
 }
 
 
 html {
     background: #fce3e6;
-        background-image: url(https://i.imgur.com/Q60GguD.png); 
+       background-image: url(https://static.vecteezy.com/system/resources/premium_previews/000/058/166/non_2x/seamless-education-pattern-vector.jpg); 
     -webkit-font-smoothing: antialiased;
     
 }
@@ -29,28 +30,27 @@ body {
 }
 
 
-
 /***********************
  * Essential Structure *
  ***********************/
 .flexsearch--wrapper {
-	height: auto;
-	width: auto;
-	max-width: 100%;
-	overflow: hidden;
-	background: transparent;
-	margin: 0;
-	position: static;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
 }
-	
+  
 .flexsearch--form {
-	overflow: hidden;
-	position: relative;
+  overflow: hidden;
+  position: relative;
 }
-	
+  
 .flexsearch--input-wrapper {
-	padding: 0 66px 0 0; /* Right padding for submit button width */
-	overflow: hidden;
+  padding: 0 66px 0 0; /* Right padding for submit button width */
+  overflow: hidden;
     
 }
 
@@ -67,36 +67,36 @@ body {
 
 .flexsearch--input {
   -webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
- 	height: 60px;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 60px;
   padding: 0 46px 0 10px;
-	border-color: #888;
+  border-color: #888;
   border-radius: 25px; 
   border-style: solid;
-	border-width: 5px;
+  border-width: 5px;
   margin-top: 15px;
   color: #333;
   font-family: 'Helvetica', sans-serif;
     text-align: left;
-	font-size: 26px;
-	-webkit-appearance: none;
-	-moz-appearance: none;
+  font-size: 26px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
-	
+  
 .flexsearch--submit {
   position: absolute;
     text-indent: -4px;
-	right: 0;
-	top: 0;
-	display: block;
-	width: 60px;
-	height: 60px;
+  right: 0;
+  top: 0;
+  display: block;
+  width: 60px;
+  height: 60px;
   padding-right: ;
   border: none;
-	margin-top: 20px; /* margin-top + border-width */
+  margin-top: 20px; /* margin-top + border-width */
   margin-left: 5px; /* border-width */
-	background: transparent;
+  background: transparent;
   color: #888;
   font-family: 'Helvetica', sans-serif;
   font-size: 40px;
@@ -109,7 +109,7 @@ body {
 }
 
 .flexsearch--input:focus.flexsearch--submit {
- 	color: #333; 
+  color: #333; 
 }
 
 .flexsearch--submit:hover {
@@ -117,7 +117,7 @@ body {
 }
 
 ::-webkit-input-placeholder {
-	color: #888;  
+  color: #888;  
 }
 
 input:-moz-placeholder {
