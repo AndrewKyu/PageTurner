@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <!-- page to return results on secondpage.html -->
+        <!-- changed babytomato_home to index -->
+        <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}"> 
+    <style>
+    img:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-5deg); }
+    20% { transform: translate(-3px, 0px) rotate(5deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(5deg); }
+    50% { transform: translate(-1px, 2px) rotate(-5deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-5deg); }
+    80% { transform: translate(-1px, -1px) rotate(5deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-5deg); }
+}
+    
+
+    </style>
+        
+    
+    </head>
+    
+    <body>
+        
+        
+        <div class="logo">
+        <img src="https://i.imgur.com/TiVpIve.png" title="\(^u^)/" style="width:640px; height:437px" />
+
+        </div>
+        
+        <div class="flexsearch">
+		<div class="flexsearch--wrapper">
+			<form class="flexsearch--form" name="text" method="POST">
+				<div class="flexsearch--input-wrapper">
+
+					<!-- user can press 'enter' to go next page -->
+					<input class="flexsearch--input" name="item" type="search" placeholder="search">
+
+					<!-- fake button search -->
+  					<!--                   <a href="secondpage.html" input class="flexsearch--submit"  type="submit" value="&#10140";/> 
+                    </a> -->
+
+                    <!-- user can press 'arrow' to go next page -->
+                    <input class="flexsearch--submit" type="submit" value="&#10140" ;/> 
+                    
+
+                </div>
+
+
+			</form>
+		</div>
+        </div>
+        
+        <p></p>
+        
+<!--     <div id="location">    
+    <form action="">
+        <select>
+            <option value="placeholder">Choose a Location</option>
+            <option value="location1">San Jose</option>
+            <option value="location2">Fremont</option>
+            <option value="location3">Santa Clara</option>
+        </select>
+        
+        </form>
+    </div>
+        
+      <p></p>  
+    <div id="price">    
+    <form action="">
+        <select>
+            <option value="placeholder">Choose a Price</option>
+            <option value="price1">$</option>
+            <option value="price2">$$</option>
+            <option value="price3">$$$</option> 
+
+
+        </select>
+        
+        </form>
+    </div> -->
+
+
+
+        
+        
+    </body>
+
+</html>
