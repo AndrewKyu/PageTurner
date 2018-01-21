@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 29 17:38:45 2017
-
 @author: NicholasKaiser & BrentSimon
 """
 
